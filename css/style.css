@@ -317,6 +317,13 @@ header {
   line-height: 1.33;
 }
 
+/* section-3 */
+
+.section-3 img {
+  margin: 0 auto;
+  max-width:1200px;
+}
+
 /* section-4 title-2 */
 
 .title-2 {
@@ -436,6 +443,7 @@ header {
 .section-gray-3 .con,
 .section-gray-4 .con {
   display: flex;
+  max-width: 1200px;
 }
 
 
@@ -599,6 +607,11 @@ header {
   letter-spacing: 0.3px;
 }
 
+.section-caution .text-box{
+  margin:0 auto;
+  max-width:1200px;
+}
+
 .section-caution .text-box h4 {
   margin: 0 0 10px;
   font-size: 20px;
@@ -669,33 +682,34 @@ header {
 }
 
 .section-certified .box-wrap {
-  text-align: center;
+  max-width: 1200px;
+  margin:0 auto;
 }
 
 .section-certified .item-box {
+  text-align: center;
+}
+
+
+.section-certified .item {
   display: inline-block;
   vertical-align: top;
   width: calc(100% / 5);
-  margin: 0 15px;
   margin-top: 50px;
 }
 
-.section-certified .item-box:last-child {
-  margin-right: 288px;
-}
-
-.section-certified .item-box h3 {
+.section-certified .item h3 {
   margin: 40px 0 15px;
   text-align: center;
 }
 
-.section-certified .item-box h3 span {
+.section-certified .item h3 span {
   font-size: 18px;
   color: #222;
   font-weight: bold;
   display: block;
 }
 
-.section-certified .item-box p {
+.section-certified .item p {
   margin: 0 0 10px 0;
 }
